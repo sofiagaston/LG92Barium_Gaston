@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body id="dBody" onload="redirectToSecondPage()">
+
+    <script>
+        function pageRedirect() {
+            alert("Click OK to be redirected to the website.");
+            window.open("second.html", "_blank");
+        }
+        window.onload = pageRedirect;
+    </script>
+</body>
+</html>
+

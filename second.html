@@ -1,0 +1,29 @@
+<!-- second.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+</head>
+<body>
+    <button onclick="changePic()">change image</button>
+    <button onclick="revertPic()">revert to original</button>
+    <br><br>
+    <img id="media" src="media/AdventureTime.webp" width="500px" height="500px">
+
+    <script>
+        img = document.getElementById("media");
+
+        function changePic() {
+            img.src = "media/PhineasAndFerb.webp";
+            width="500px";
+            height="500px";
+        }
+
+        function revertPic() {
+            img.src = "media/AdventureTime.webp";
+        }
+    </script>
+</body>
+</html>
